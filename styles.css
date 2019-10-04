@@ -14,3 +14,18 @@ h2 {
 q{
     font-family: "Passion One", cursive;
 }
+nav{
+    font-family: "Josefin Sans", sans-serif;
+}
+a:link {
+    color:thistle;
+}
+a:hover{
+    color:plum;
+}
+a:active{
+    color:black;
+}
+a:visited{
+    color:paleturquoise;
+}
