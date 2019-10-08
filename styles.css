@@ -1,18 +1,50 @@
+body{
+    background: black
+}
+header{
+    position: fixed;
+    background: black;
+    left: 20%;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+main{
+    padding-top: 120px;
+}
 p {
     font-family: "Josefin Sans", sans-serif;
     color: blueviolet;
+    margin-top: auto
 }
 h1 {
     font-family: "Barriecito", cursive;
+    margin: auto;
+    text-align: center;
+    color: coral
+}
+header{
+    margin: auto
+}
+#quote{
+    text-align: center;
+}
+nav{
+    text-align: center;
 }
 h3 {
     font-family:"Josefin Sans", sans-serif;
+    color: coral;
+    margin-bottom: 10px
 }
 h2 {
     font-family: "Yeseva One", cursive;
+    color:thistle;
 }
 q{
-    font-family: "Passion One", cursive;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-weight: 700;
 }
 nav{
     font-family: "Josefin Sans", sans-serif;
@@ -21,11 +53,23 @@ a:link {
     color:thistle;
 }
 a:hover{
-    color:plum;
+    color:blueviolet;
 }
 a:active{
     color:black;
 }
 a:visited{
-    color:paleturquoise;
+    color:coral;
+}
+section{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.inspirations{
+    padding-bottom: 15px;
+    border-bottom: 2px dashed thistle;
+}
+.inspirations h3{
+    padding-top: 10px;
 }
